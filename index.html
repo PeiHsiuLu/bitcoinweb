@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>比特雪球DCA</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            margin: 0; /* 清除預設的頁面邊距 */
+        }
+
+        /* 設定顏色 */
+        /* ... （之前的 CSS 樣式） ... */
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: auto; /* 調整高度自動適應內容 */
+            overflow-y: hidden;
+            width: 100%; /* 調整導航列整體寬度 */
+            padding: 10px 0; /* 增加上下 padding */
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+            gap: 80px; /* 調整按鈕之間的間距 */
+            padding: 0 10px; /* 左右增加內邊距 */
+        }
+
+        .nav-item {
+
+            font-size: 18px;
+            padding: 6px 60px; /* 調整按鈕的內邊距 */
+            border-bottom: 2px solid transparent; /* 添加透明的下邊線 */
+            transition: border-bottom-color 0.3s ease-in-out; /* 添加過渡效果 */
+            background-color: transparent; /* 設置按鈕背景為透明 */
+            color: #ffffff; /* 設置按鈕文字顏色為白色 */
+        }
+
+        .nav-item:hover,
+        .nav-item:focus {
+            border-bottom-color: #ffffff; /* 滑鼠懸停或按鈕獲得焦點時，改變下邊線的顏色 */
+            outline: none; /* 清除默認的焦點輪廓 */
+        }
+
+        /* 調整圖片與邊界的距離 */
+         img {
+            margin: 20px; /* 調整圖片周圍的邊界距離為 20px */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://raw.githubusercontent.com/PeiHsiuLu/PeiHsiuLu/main/%E6%96%B0%E6%AF%94%E7%89%B9%E9%9B%AA%E7%90%83.png" alt="比特雪球图片" width="200px" height="100px">
+
+    <div class="nav-scroller py-1 mb-3 border-bottom">
+        <nav class="nav nav-underline justify-content-between">
+            <button class="nav-item nav-link link-button" onclick="設計理念()">網站理念</button>
+            <button class="nav-item nav-link link-button" onclick="比特幣介紹()">比特幣介紹</button>
+            <button class="nav-item nav-link link-button" onclick="DCA平均成本法介紹()">DCA平均成本法介紹</button>
+            <button class="nav-item nav-link link-button" onclick="網站使用說明()">網站使用說明</button>
+        </nav>
+    </div>
+
+    <script>
+        function 網站理念() {
+        }
+
+        function 比特幣介紹() {
+        }
+
+        function DCA平均成本法介紹() {
+        }
+
+        function 網站使用說明() {
+
+        }
+
+        // 以此類推，定義其他按鈕的功能函數
+    </script>
+</body>
+</html>
