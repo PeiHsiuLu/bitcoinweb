@@ -54,7 +54,9 @@
 
 
         img {
-            margin: 20px;
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-bottom: 20px;
         }
 
         .card {
@@ -174,6 +176,21 @@
     }
 }
 
+.calculator-divider {
+            border-top: 1px solid white;
+            margin-top: 80px; /* 調整線條上方的間距 */
+            margin-bottom: 20px; /* 增加線條下方的間距 */
+            width: 100%;
+            max-width: 1250px;
+            align-items: left;
+            margin-left: 120px;
+        }
+.title{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
     </style>
 </head>
 
@@ -183,7 +200,7 @@
     <main>
         <div class="nav-scroller py-1 mb-3 border-bottom">
             <nav class="nav nav-underline justify-content-between">
-                <button class="nav-item nav-link link-button" onclick="設計理念()">網站理念</button>
+                <button class="nav-item nav-link link-button" onclick="網站理念()">網站理念</button>
                 <button class="nav-item nav-link link-button" onclick="比特幣介紹()">比特幣介紹</button>
                 <button class="nav-item nav-link link-button" onclick="DCA平均成本法介紹()">DCA平均成本法介紹</button>
                 <button class="nav-item nav-link link-button" onclick="網站使用說明()">網站使用說明</button>
@@ -364,14 +381,34 @@
                         <option value="_day">30</option>
                         <option value="_day">31</option>
                     </select>
-                    <lable>日</lable>
+                    <label>日</label>
                 </div>
             </fieldset>
         </div>
         <div class="output-container">
             <button class="output" onclick="輸出結果(this)"><legend>輸出結果</legend></button>
         </div>
+
+
     </main>
+
+    
+    <div class="calculator-divider"></div>
+
+
+    <h1 class="title">網站理念</h1>
+
+    <script>
+        function 網站理念() {
+        // 找到目标元素
+        const 網站理念元素 = document.querySelector('.title');
+        
+        // 滚动到目标元素所在的位置
+        網站理念元素.scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+    
+    
 </body>
 
 </html>
