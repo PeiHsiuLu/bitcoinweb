@@ -171,21 +171,8 @@
     }
 }
 
-.calculator-divider {
-            border-top: 1px solid white;
-            margin-top: 80px; /* 調整線條上方的間距 */
-            margin-bottom: 20px; /* 增加線條下方的間距 */
-            width: 100%;
-            max-width: 1250px;
-            align-items: left;
-            margin-left: 120px;
-        }
-.title{
-    margin-top: 50px;
-    width:100%;
-    max-width: 1200px;
-    font-size: 48px;
-}
+
+    
 
 .web-idea{
     margin-left: 10px;
@@ -199,15 +186,17 @@
 }
 
 .sugar {
-    width: 150px;
-    height: 170px;
+    width: 200px;
+    height: 200px;
     margin-right: 20px; /* 圖片右邊的間距 */
+    margin-left: -5px;
 }
 
 .ainsley{
-    width: 150px;
-    height: 170px;
+    width: 200px;
+    height: 200px;
     margin-right: 20px; /* 圖片右邊的間距 */
+    margin-left: -5px;
     
 }
 
@@ -223,7 +212,7 @@
 
 .introductionsugar h1 {
     margin-top: -7px; /* 适当调整这个数值 */
-    margin-left: 20px;
+    margin-left: 100px;
     margin-bottom:-10px;
 }
 
@@ -240,7 +229,7 @@
 .introductionainsley h1 {
     margin-top: -7px; /* 适当调整这个数值 */
     margin-bottom: -10px;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 .text-sugar{
@@ -255,7 +244,7 @@
 .text-sugar h3 {
             width: 700px; /* 設定文字寬度 */
             display: inline-block; /* 讓文字橫向排列 */
-            margin-left: 20px;
+            margin-left: 100px;
         }
 
 .text-ainsley{
@@ -270,7 +259,7 @@
 .text-ainsley h3 {
             width: 700px; /* 設定文字寬度 */
             display: inline-block; /* 讓文字橫向排列 */
-            margin-left: 20px;
+            margin-left: 100px;
         }
 a{
     color:yellow;
@@ -283,6 +272,41 @@ a{
     font-size: 36px;
 }
 
+hr{
+    border-top: 1px solid white;
+            margin-top: 80px; /* 調整線條上方的間距 */
+            margin-bottom: 20px; /* 增加線條下方的間距 */
+            width: 100%;
+            max-width: 1250px;
+            align-items: left;
+            margin-left: 120px;
+}
+
+.many-button{
+    margin-top: 80px; /* 調整線條上方的間距 */
+            margin-bottom: 20px; /* 增加線條下方的間距 */
+            width: 100%;
+            max-width: 1250px;
+            align-items: left;
+            margin-left: 120px;
+
+}
+
+.title-web{
+    font-size: 36px;
+}
+
+.title-bitcoin-introduction{
+    font-size: 36px;
+}
+
+.title-DCA{
+    font-size: 36px;
+}
+
+.title-explanation{
+    font-size: 36px;
+}
 
 
 
@@ -413,7 +437,7 @@ a{
                         <option value="2011_year">2011</option>
                         <option value="2012_year">2012 </option>
                         <option value="2013_year">2013 </option>
-                        <option value="2014_year"> 2014</option>
+                        <option value="2014_year">2014</option>
                         <option value="2015_year">2015 </option>
                         <option value="2016_year">2016 </option>
                         <option value="2017_year">2017</option>
@@ -487,9 +511,9 @@ a{
 
     </main>
 
-    
-    <div class="calculator-divider">
-        <h1 class="title">網站理念</h1>
+    <hr>
+    <div class="many-button">
+        <h1 class="title-web">網站理念</h1>
         <div class="web-idea"><p>我們對比特幣這個虛擬貨幣在市場上的發展深感興趣，特別是 — Ainsley，在成立比特幣 DCA 網站之前，已經深耕比特幣市場多年。隨著近期虛擬貨幣投資熱潮不斷高漲，比特幣更成為投資者心中的首選。</p>
              
 
@@ -512,30 +536,67 @@ a{
                     </div>
                 </div>
 
-            <div class="introductionainsley">
+        <div class="introductionainsley">
                 <img class="ainsley" src="https://raw.githubusercontent.com/PeiHsiuLu/PeiHsiuLu/786ca0cedbe455e16c741f8b07f34231aaf63911/A.jpg">
                 <div class="text-ainsley">
             <h1>Ainsley</h1>
-            <h3><p>後端動態網站的創作人，腦海總是能源源不絕地湧出想法，即便與別人不一樣，也還是要做最不同凡響的那位</p>
+            <h3><p>後端動態網站的創作人，腦海總是能源源不絕地湧出想法，即便與別人不一樣，也還是要做最不同凡響的那位。</p>
                  <p>--- 生命有限，但是腦海的創意總是無限 ---</p>
                  <a href="https://nrps9909.github.io/41171214h/">Ainsley的個人網站</a>                                                </h3>
-            </div>
-                
-
-                
-                <script>
+                 <script>
                     function 網站理念() {
                     // 找到目标元素
-                    const 網站理念元素 = document.querySelector('.title');
+                    const 網站理念元素 = document.querySelector('.title-web');
                     
                     // 滚动到目标元素所在的位置
                     網站理念元素.scrollIntoView({ behavior: 'smooth' });
                 }
                 </script>
+              </div>
+        </div>
+
+            <h1 class="title-bitcoin-introduction">比特幣介紹</h1>
+
+            <script>
+                function 比特幣介紹() {
+                // 找到目标元素
+                const 比特幣介紹元素 = document.querySelector('.title-bitcoin-introduction');
+                
+                // 滚动到目标元素所在的位置
+                比特幣介紹元素.scrollIntoView({ behavior: 'smooth' });
+            }
+            </script>
+
+            <h1 class="title-DCA">DCA平均成本法介紹</h1>
+
+            <script>
+                function DCA平均成本法介紹() {
+                // 找到目标元素
+                const DCA平均成本法介紹元素 = document.querySelector('.title-DCA');
+                
+                // 滚动到目标元素所在的位置
+                DCA平均成本法介紹元素.scrollIntoView({ behavior: 'smooth' });
+            }
+            </script>
+
+            <h1 class="title-explanation">網站使用說明</h1>
+
+            <script>
+                function 網站使用說明() {
+                // 找到目标元素
+                const 網站使用說明元素 = document.querySelector('.title-explanation');
+                
+                // 滚动到目标元素所在的位置
+                網站使用說明元素.scrollIntoView({ behavior: 'smooth' });
+            }
+            </script>
+
 
 
 
     </div>
+                
+
       
       
        
