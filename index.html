@@ -36,18 +36,21 @@
         }
 
         .nav-item {
-            font-size: 18px;
+            font-size: 24px;
             padding: 6px 60px;
-            border-bottom: 2px solid transparent;
-            transition: border-bottom-color 0.3s ease-in-out;
-            background-color: transparent;
-            color: #ffffff;
+            border: 2px solid white;
+            transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            background-color: rgba(255, 255, 255, 0.1);
+    color: #ffcc00;
+            border-radius: 5px;
+            min-width: 60px; /* 设置按钮的最小宽度 */
         }
 
         .nav-item:hover,
         .nav-item:focus {
-            border-bottom-color: #ffffff;
-            outline: none;
+            border-color: #ffffff;
+    background-color: white;
+            color: black;
         }
 
         
@@ -177,6 +180,10 @@
 .web-idea{
     margin-bottom: 80px;
 
+}
+
+.DCA-average{
+    margin-bottom: 80px;
 }
 
 .bitcoinsnow{
@@ -313,6 +320,13 @@ hr{
     color: yellow;
 }
 
+.What-is-DCA-average{
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
 
 
     </style>
@@ -324,12 +338,14 @@ hr{
     <main>
         <div class="nav-scroller py-1 mb-3 border-bottom">
             <nav class="nav nav-underline justify-content-between">
-                <button class="nav-item nav-link link-button" onclick="網站理念()">網站理念</button>
-                <button class="nav-item nav-link link-button" onclick="比特幣介紹()">比特幣介紹</button>
-                <button class="nav-item nav-link link-button" onclick="DCA平均成本法介紹()">DCA平均成本法介紹</button>
-                <button class="nav-item nav-link link-button" onclick="網站使用說明()">網站使用說明</button>
+                <button class="nav-item nav-link link-button" onclick="網站理念()"><strong>網站理念</strong></button>
+                <button class="nav-item nav-link link-button" onclick="比特幣介紹()"><strong>比特幣介紹</strong></button>
+                <button class="nav-item nav-link link-button" onclick="DCA平均成本法介紹()"><strong>DCA平均成本法介紹</strong></button>
+                <button class="nav-item nav-link link-button" onclick="網站使用說明()"><strong>網站使用說明</strong></button>
             </nav>
         </div>
+
+        
 
         <!-- 新的計算器部分 -->
         <div class="calculator-container">
@@ -573,6 +589,21 @@ hr{
             </script>
 
             <h1 class="title-DCA"><strong>DCA平均成本法介紹</strong></h1>
+            <div class="DCA-average">
+                <h2>什麼是DCA平均成本法？</h2>
+                <div class="What-is-DCA-average">
+                    <p>平均成本法的英文是 Dollar Cost Averaging，簡稱 DCA，也就是俗稱的「定投」，是一種定期定量的長期投資策略。採取規律機械式的方式，以固定的周期和金額投入資金，買入特定的資產。其中，定期是指特定的周期，例如每兩周一次、每月一次等等。定量是指特定的金額，例如每次$100、$500、$2000等。這種投資策略的目的主要是為了避免資產波動對投資人最終收益造成的負面影響。</p>
+                    <p>例如說，原先要投資的金額總數有 $120,000，若是採用DCA平均成本法，平均分 12 期投注，每次的投資金額就是$10,000。由於每月股票價格總會有波動，大部分的投資小白的投資情緒容易受到股票市場價格變動影響。所以，相較一次性的投資，分期的DCA平均成本法大大降低了投資的風險。</p></div>
+                <h2>使用DCA平均成本法有什麼優點？</h2> 
+                    <p></p>
+                <h2>DCA平均成本法適用於哪些族群</h2> 
+                
+                
+                
+                
+                
+                
+            </div>
 
             <script>
                 function DCA平均成本法介紹() {
