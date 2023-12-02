@@ -401,13 +401,7 @@ hr{
     font-size: 24px;
 }
 
-.click-me{
-    text-align: center;
-    font-size: 60px;
-    font-family: 標楷體;
-    margin-bottom: 360px;
-    color: yellow;
-}
+
 
 /*乙太幣*/
 .yitai{
@@ -580,7 +574,117 @@ hr{
     margin-bottom:100px ;
 }
 
+.message{
+    text-align: left;
+    font-size: 72px;
+    color: yellow;
+    margin-bottom: 25px;
+    margin-left: 120px;
+}
 
+.message-container{
+    font-family: 標楷體;
+    
+}
+
+.message-container fieldset{
+    margin-top: 20px;
+    border-radius: 3%;
+    flex-direction: column;
+    margin-left: 1030px;
+    width: 100%;
+    max-width: 400px;
+    min-height:500px ;
+    height: auto;
+    margin-bottom: 20px;
+    border-color: black;
+}
+
+.blockchain{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.block-blockchain{
+    font-family: 標楷體;
+   display: flex;
+    align-items: top;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.block-blockchain h1{
+    text-align:center ;
+    margin-left: 60px;
+}
+
+fieldset h2{
+    color:yellow;
+    text-align: center;
+    font-size: 48px;
+}
+
+.news{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.news-news{
+    font-family: 標楷體;
+   display: flex;
+    align-items: top;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.news-news h1{
+    text-align:center ;
+    margin-left: 70px;
+}
+
+.invenst{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.invenst-invenst{
+    font-family: 標楷體;
+   display: flex;
+    align-items: top;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.invenst-invenst h1{
+    text-align:center ;
+    margin-left: 70px;
+}
+
+a h1{
+    color:white
+}
+
+/* 去掉链接的下划线 */
+a {
+        text-decoration: none;
+    }
+
+    /* 悬停在链接上时显示虚线 */
+    a h1:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    h3 a:hover{
+        text-decoration: underline;
+        color: yellow;
+    }
 
 
 
@@ -597,7 +701,7 @@ hr{
                 <button class="nav-item nav-link link-button" onclick="網站理念()"><strong>網站理念</strong></button>
                 <button class="nav-item nav-link link-button" onclick="比特幣介紹()"><strong>比特幣介紹</strong></button>
                 <button class="nav-item nav-link link-button" onclick="DCA平均成本法介紹()"><strong>DCA平均成本法介紹</strong></button>
-                <button class="nav-item nav-link link-button" onclick="網站使用說明()"><strong>網站使用說明</strong></button>
+                <button class="nav-item nav-link link-button" onclick="用戶論壇()"><strong>用戶論壇</strong></button>
             </nav>
         </div>
 
@@ -1001,16 +1105,54 @@ hr{
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="click-me">
-        <p><strong>↓↓↓↓↓ 往下看更多 ↓↓↓↓↓</strong></p>
-        <p><strong>↓↓↓↓↓ 往下看更多 ↓↓↓↓↓</strong></p>
-        <p><strong>↓↓↓↓↓ 往下看更多 ↓↓↓↓↓</strong></p></div>
-          
+
+    <script>
+        function 用戶論壇() {
+        // 找到目标元素
+        const 用戶論壇元素 = document.querySelector('.message');
+        
+        // 滚动到目标元素所在的位置
+        用戶論壇元素.scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+    
+   <div class="message-container">
+    <div class="message">用戶論壇</div>
+    <fieldset>
+        <h2>更多資訊</h2>
+        <div class="block-blockchain">
+            <img class="blockchain"src="https://github.com/PeiHsiuLu/PeiHsiuLu/blob/main/%E5%8D%80%E5%A1%8A%E9%8F%88.jpg?raw=true">
+            <a href="https://blockcast.it/">
+                <h1>幣圈資訊區</h1>
+            </a>
+        </div>
+        <div class="news-news">
+            <img class="news"src="https://github.com/PeiHsiuLu/PeiHsiuLu/blob/main/%E9%8F%88%E6%96%B0%E8%81%9E.jpg?raw=true">
+            <a href="https://abmedia.io/">
+                <h1>幣圈新聞</h1>
+            </a>
+            
+        </div>
+        <div class="invenst-invenst">
+            <img class="invenst"src="https://github.com/PeiHsiuLu/PeiHsiuLu/blob/main/%E6%AF%94%E7%89%B9%E5%B9%A3.jpg?raw=true">
+            <a href="https://www.okx.com/hk/join?channelId=ACE520352&msclkid=1f8ff8d5fc2e1938aaae9dbeb0138086">
+                <h1>我要投資</h1>
+            </a>
+            
+        </div>
+        
+       
+    </fieldset>
+
+
+    
+    
+
+   
+   </div>
+  
+
+   
 
       
       
