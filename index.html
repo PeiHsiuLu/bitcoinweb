@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>比特雪球DCA</title>
     <style>
+        /* 樣式設定 */
+
         body {
             background-color: black;
             color: white;
@@ -13,7 +15,7 @@
             font-family: 標楷體;
         }
 
-        /* 樣式設定 */
+        /*按鈕樣式*/
 
         .nav-scroller {
             position: relative;
@@ -45,7 +47,7 @@
             border: 2px solid white;
             transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
             background-color: rgba(255, 255, 255, 0.1);
-    color: #ffcc00;
+            color: #ffcc00;
             border-radius: 5px;
             font-family: 標楷體;
         }
@@ -53,14 +55,11 @@
         .nav-item:hover,
         .nav-item:focus {
             border-color: #ffffff;
-    background-color: white;
+            background-color: white;
             color: black;
         }
 
         
-
-
-
         .card {
             border: none;
         }
@@ -69,7 +68,8 @@
             text-align: left;
         }
 
-        /* 新增的 CSS */
+        /* 計算器 */
+
         .calculator-container {
             display: flex;
             flex-direction: column;
@@ -129,6 +129,7 @@
         }
 
         /* 讓所有 label 字體大小相同 */
+
         label {
             font-size: 18px; /* 與 DCA Settings 字體大小相同 */
         }
@@ -166,11 +167,12 @@
         }
 
       /* 添加点击动画效果 */
-.clicked {
-    animation: clickEffect 0.5s;
-}
 
-@keyframes clickEffect {
+         .clicked {
+        animation: clickEffect 0.5s;
+        }
+
+         @keyframes clickEffect {
     0% {
         background-color: transparent; /* 初始背景色 */
         box-shadow: none; /* 初始阴影 */
@@ -201,6 +203,8 @@
             margin-bottom: 20px;
             display: inline-block;
 }
+
+/*創辦人*/
 
 .sugar {
     border-radius: 50%;
@@ -291,6 +295,8 @@ a{
     color: yellow;
 }
 
+/*白線*/
+
 hr{
     border-top: 1px solid white;
             margin-top: 80px; /* 調整線條上方的間距 */
@@ -299,6 +305,8 @@ hr{
             align-items: left;
             margin-left: 120px;
 }
+
+/*更多資訊*/
 
 .many-button{
     margin-top: 80px; /* 調整線條上方的間距 */
@@ -309,6 +317,8 @@ hr{
             margin-left: 120px;
 
 }
+
+/*功能標題*/
 
 .title-web{
     font-size: 48px;
@@ -329,6 +339,8 @@ hr{
     font-size: 48px;
     color: yellow;
 }
+
+/*DCA平均成本法介紹*/
 
 .What-is-DCA-average{
     text-align: left;
@@ -572,7 +584,9 @@ hr{
     margin-bottom: 20px;
     width: 1250px; /* 這裡的寬度可以根據你的需要調整 */
     margin-bottom:100px ;
-}
+}  
+
+/*留言板*/
 
 .message{
     text-align: left;
@@ -599,6 +613,8 @@ hr{
     margin-bottom: 20px;
     border-color: black;
 }
+
+/*更多功能*/
 
 .blockchain{
     border-radius: 50%;
@@ -889,6 +905,8 @@ a {
     </main>
 
     <hr>
+
+    <!-- 創辦人 -->
     
     <div class="many-button">
         <h1 class="founder">創辦人</h1>
@@ -913,27 +931,12 @@ a {
                     <h3><p>後端動態網站的創作人，腦海總是能源源不絕地湧出想法，即便與別人不一樣，也還是要做最不同凡響的那位。</p>
                          <p>--- 生命有限，但是腦海的創意總是無限 ---</p>
                          <a href="https://nrps9909.github.io/41171214h/">Ainsley的個人網站</a></h3>
-                         <script>
-                            function 創辦人() {
-                            // 找到目标元素
-                            const 創辦人元素 = document.querySelector('.founder');
-                            
-                            // 滚动到目标元素所在的位置
-                            創辦人元素.scrollIntoView({ behavior: 'smooth' });
-                        }
-                        </script>
-                         <script>
-                            function 網站理念() {
-                            // 找到目标元素
-                            const 網站理念元素 = document.querySelector('.title-web');
-                            
-                            // 滚动到目标元素所在的位置
-                            網站理念元素.scrollIntoView({ behavior: 'smooth' });
-                        }
-                        </script>
-                </div>
+                         
            
     </div>
+
+    <!-- 網站理念 -->
+
     <br>
         <h1 class="title-web"><strong>網站理念</strong></h1>
         <div class="web-idea"><p>我們對比特幣這個虛擬貨幣在市場上的發展深感興趣，特別是 — Ainsley，在成立比特幣 DCA 網站之前，已經深耕比特幣市場多年。隨著近期虛擬貨幣投資熱潮不斷高漲，比特幣更成為投資者心中的首選。</p>
@@ -943,6 +946,8 @@ a {
 
             
             <P>我們希望透過這個平台，為投資者提供更可靠的指引，使他們能夠更有信心地在虛擬貨幣市場應退自如，大放異彩！</p></div>
+
+    <!-- 比特幣介紹 -->
 
         
 
@@ -1032,15 +1037,7 @@ a {
 
             </div>
 
-            <script>
-                function 比特幣介紹() {
-                // 找到目标元素
-                const 比特幣介紹元素 = document.querySelector('.title-bitcoin-introduction');
-                
-                // 滚动到目标元素所在的位置
-                比特幣介紹元素.scrollIntoView({ behavior: 'smooth' });
-            }
-            </script>
+            <!-- DCA平均成本法 -->
 
             <h1 class="title-DCA"><strong>DCA平均成本法介紹</strong></h1>
             <div class="DCA-average">
@@ -1086,19 +1083,8 @@ a {
             </div>
             </div>
 
-            <script>
-                function DCA平均成本法介紹() {
-                // 找到目标元素
-                const DCA平均成本法介紹元素 = document.querySelector('.title-DCA');
-                
-                // 滚动到目标元素所在的位置
-                DCA平均成本法介紹元素.scrollIntoView({ behavior: 'smooth' });
-            }
-            </script>
-
-
-
     </div>
+    
     <hr>
     <br>
     <br>
@@ -1106,15 +1092,7 @@ a {
     <br>
     <br>
 
-    <script>
-        function 用戶論壇() {
-        // 找到目标元素
-        const 用戶論壇元素 = document.querySelector('.message');
-        
-        // 滚动到目标元素所在的位置
-        用戶論壇元素.scrollIntoView({ behavior: 'smooth' });
-    }
-    </script>
+    <!-- 用戶論壇 -->
     
    <div class="message-container">
     <div class="message">用戶論壇</div>
@@ -1143,6 +1121,62 @@ a {
         
        
     </fieldset>
+
+
+    <!--Javascript-->
+
+    <script>
+        function 創辦人() {
+        // 找到目标元素
+        const 創辦人元素 = document.querySelector('.founder');
+        
+        // 滚动到目标元素所在的位置
+        創辦人元素.scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+
+     <script>
+        function 網站理念() {
+        // 找到目标元素
+        const 網站理念元素 = document.querySelector('.title-web');
+        
+        // 滚动到目标元素所在的位置
+        網站理念元素.scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+
+<script>
+    function 比特幣介紹() {
+    // 找到目标元素
+    const 比特幣介紹元素 = document.querySelector('.title-bitcoin-introduction');
+    
+    // 滚动到目标元素所在的位置
+    比特幣介紹元素.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+<script>
+    function DCA平均成本法介紹() {
+    // 找到目标元素
+    const DCA平均成本法介紹元素 = document.querySelector('.title-DCA');
+    
+    // 滚动到目标元素所在的位置
+    DCA平均成本法介紹元素.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+<script>
+    function 用戶論壇() {
+    // 找到目标元素
+    const 用戶論壇元素 = document.querySelector('.message');
+    
+    // 滚动到目标元素所在的位置
+    用戶論壇元素.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+
+</div>
 
 
     
