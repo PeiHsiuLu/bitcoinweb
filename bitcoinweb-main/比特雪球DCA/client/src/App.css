@@ -73,7 +73,7 @@ background-color: white;
     width: 100%;
     max-width: 300px;
     font-size: 24px;
-    height: 390px;
+    height: 700px;
     margin-left: 100px;
     margin-bottom: 20px;
 }
@@ -259,7 +259,7 @@ border-top: 1px solid white;
     margin-left: 120px;
 }
 .many-button{
-margin-top: 80px; /* 調整線條上方的間距 */
+    margin-top: 80px;
     margin-bottom: 20px; /* 增加線條下方的間距 */
     width: 100%;
     max-width: 1200px;
@@ -505,17 +505,27 @@ font-family: 標楷體;
 
 }
 
-.message-container fieldset{
+.message-container2{
+    font-family: 標楷體;
+    
+    }
+
+.message-container3{
+        font-family: 標楷體;
+        
+        }
+
+.message-container3 fieldset{
 margin-top: 20px;
 border-radius: 3%;
 flex-direction: column;
-margin-left: 1030px;
+margin-left: -50px;
 width: 100%;
 max-width: 400px;
-min-height:500px ;
-height: auto;
+max-height: 700px;
 margin-bottom: 20px;
 border-color: black;
+margin-left: 250px;
 }
 
 .blockchain{
@@ -631,9 +641,11 @@ color: yellow;
 }
 
 .chart-container {
-    width: 100%;
-    height: 400px;
-    display: inline-block;
+    margin-top: 0px;
+    width: 800px;
+    height: 120%;
+    max-height: 800px;
+    display:inline-block;
   }
   
   .app-container {
@@ -643,6 +655,57 @@ color: yellow;
   }
   
   .chart-section {
-    flex: 1; /* 調整圖表欄的大小 */
-    margin: left -100px;
+    flex: 2; /* 調整圖表欄的大小 */
+    margin: left 200px;
   }
+
+.comment-section{
+    font-family: 標楷體;
+}
+
+.comment-section fieldset {
+    margin-top: 20px;
+    border-radius: 3%;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 100%;
+    max-width: 400px;
+    max-height: 600px;
+    margin-bottom: 20px;
+    border-color: white;
+    align-items: flex-start;
+    margin-left: 120px;
+    overflow-y: auto; /* 或者使用 overflow: scroll; */
+    padding-right: 40px; /* 或者根据需要调整间距 */
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-section,
+.message-container3 {
+    border-radius: 3%;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.comment-section {
+    margin-right: 20px; /* 調整間距以對齊 */
+}
+
+.comment-section h1{
+    margin-left: 120px;
+}
+.message-container3 {
+    margin-left: 20px; /* 調整間距以對齊 */
+}
+
+form {
+    margin-left: 120px; /* 或者使用 padding: 0 0 0 20px; */
+    font-size: 24px;
+  }
+
