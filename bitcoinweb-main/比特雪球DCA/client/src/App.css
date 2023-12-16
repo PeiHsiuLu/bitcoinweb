@@ -528,6 +528,7 @@ border-color: black;
 margin-left: 250px;
 }
 
+
 .blockchain{
 border-radius: 50%;
 height: 100px;
@@ -676,7 +677,7 @@ color: yellow;
     align-items: flex-start;
     margin-left: 120px;
     overflow-y: auto; /* 或者使用 overflow: scroll; */
-    padding-right: 40px; /* 或者根据需要调整间距 */
+    color: yellow;
 }
 
 
