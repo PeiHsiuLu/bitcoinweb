@@ -14,10 +14,9 @@ body {
     z-index: 2;
     height: auto;
     overflow-y: hidden;
-    width: 100%;
     padding: 10px 0;
-    max-width: 1250px;
-    margin-left: 120px;
+    margin-right: 120px;
+    margin-left: 100px;
     align-items: center;
     margin-top: 20px;
 }
@@ -61,8 +60,6 @@ background-color: white;
     flex-direction: column;
     align-items: left;
     margin-top: 40px;
-    width: 100%;
-    max-width: 800px;
     overflow-x: auto;
     display: inline-block;
 }
@@ -73,9 +70,11 @@ background-color: white;
     width: 100%;
     max-width: 300px;
     font-size: 24px;
-    height: 700px;
+    height: 400px;
     margin-left: 32px;
     margin-bottom: 20px;
+    overflow-y: auto; /* 或者使用 overflow: scroll; */
+    margin-right: 50px;
 }
 .calculator-fieldset legend {
     font-size: 18px; /* 與 DCA Settings 字體大小相同 */
@@ -160,8 +159,7 @@ margin-bottom: 80px;
 font-size: 24px;
 margin-top: 80px; /* 調整線條上方的間距 */
     margin-bottom: 20px; /* 增加線條下方的間距 */
-    width: 100%;
-    max-width: 1200px;
+   margin-right: 120px;
     align-items: left;
     margin-left: 120px;
 }
@@ -261,8 +259,7 @@ border-top: 1px solid white;
 .many-button{
     margin-top: 80px;
     margin-bottom: 20px; /* 增加線條下方的間距 */
-    width: 100%;
-    max-width: 1200px;
+    margin-right: 120px;
     align-items: left;
     margin-left: 120px;
 }
@@ -620,8 +617,7 @@ color: yellow;
     font-size: 24px;
     margin-top: 80px; /* 調整線條上方的間距 */
         margin-bottom: 20px; /* 增加線條下方的間距 */
-        width: 100%;
-        max-width: 1200px;
+        margin-right: 120px;
         align-items: left;
         margin-left: 120px;
 }
@@ -631,8 +627,7 @@ color: yellow;
     font-size: 24px;
     margin-top: 80px; /* 調整線條上方的間距 */
         margin-bottom: 20px; /* 增加線條下方的間距 */
-        width: 100%;
-        max-width: 1200px;
+        margin-right: 120px;
         align-items: left;
         margin-left: 120px;
 }
@@ -654,6 +649,7 @@ color: yellow;
     display: inline-flex;
     justify-content: space-around; /* 平均分配子元素间的空间 */
     align-items: center; /* 顶部对齐子元素 */
+    margin-right: 120px;
 }
 .chart-section {
     flex: 2; /* 調整圖表欄的大小 */
