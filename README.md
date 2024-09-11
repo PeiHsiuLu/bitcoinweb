@@ -7,4 +7,8 @@
 npm install
 npm start
 ```
-接著，找到 server 端的
+接著，找到 server 端的 index 在server端的終端機輸入以下指令：  
+```bash
+node index.js
+```
+
